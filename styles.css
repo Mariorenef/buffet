@@ -59,4 +59,18 @@ body {
     margin: 30px;
     font-size: 14px;
   }
+  .pago-local {
+    margin: 30px auto;
+    padding: 20px;
+    background: #e0f7fa;
+    border: 1px solid #00acc1;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .qr-img {
+    width: 200px;
+    margin-top: 10px;
+  }
   
