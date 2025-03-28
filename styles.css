@@ -73,4 +73,68 @@ body {
     width: 200px;
     margin-top: 10px;
   }
-  
+  header h2 {
+    background: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .producto a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #43a047;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .producto a:hover {
+    background: #388e3c;
+  }
+  /* Estilos para modo oscuro y toast */
+body.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+header.dark-mode,
+footer.dark-mode,
+.producto.dark-mode {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 15px 20px;
+  background-color: #43a047;
+  color: white;
+  border-radius: 8px;
+  display: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  z-index: 1000;
+}
+
+#modo-oscuro-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.producto {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease-out;
+}
