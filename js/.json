@@ -1,0 +1,6 @@
+"back_urls": {
+    "success": "https://marionet.github.io/buffet/gracias.html",
+    "failure": "https://marionet.github.io/buffet/error.html",
+    "pending": "https://marionet.github.io/buffet/esperando.html"
+},
+"auto_return": "approved"
